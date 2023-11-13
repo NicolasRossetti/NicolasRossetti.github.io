@@ -1,18 +1,33 @@
 body {
-  background-color: cadetblue;
+  background-color: #5B2DFA;
   font-family: Arial, Helvetica, sans-serif;
 }
 h1 {
-  color: darkslateblue;
+  color: #FFFFFF;
   text-align: center;
 }
 .assign {
-  background-color: darkgray;
+  background-color: #FAB513;
   margin: 10px;
   padding: 10px;
   display: flex;
+  border-radius: 20px;
 }
 .assign img {
   width: 200px;
   padding: 10px;
+  border: 2px solid #000000;
+}
+a {
+ text-decoration: none; /* remove underlining on anchor tags */
+ color: midnightblue; /* pick the color you want */
+}
+.assign img {
+ padding: 10px; /* change this from margin to padding */
+ 
+}
+Explain a:hover, img:hover, h1:hover
+a:hover {
+ text-decoration: none; /* remove underlining on anchor tags */
+ color: #FF0000; /* pick the color you want */
 }
