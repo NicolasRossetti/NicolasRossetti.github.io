@@ -20,9 +20,15 @@ h1 {
 }
 a {
  text-decoration: none;
- color: midnightblue;
+ color: #000000;
 }
 a:hover {
  text-decoration: none;
  color: #FF0000;
+}
+img:hover {
+ color: #FF0000;
+}
+h1:hover {
+  color: #FF0000;
 }
